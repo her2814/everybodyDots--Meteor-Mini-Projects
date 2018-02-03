@@ -1,6 +1,6 @@
 Template.container.onCreated(function(){
     var self = this;
-    self.subscribe("dots","MeteorSchool");
+    subl = self.subscribe("dots","MeteorSchool");
 })
 
 Template.container.helpers({
